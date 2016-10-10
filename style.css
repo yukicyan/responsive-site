@@ -14,13 +14,17 @@ a {
 ------------------------------------------------------------*/
 .header {
   margin: 0;
-  padding: 0; }
-  .header img {
-    width: 100%;
-    height: 250px; }
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #EEEEEE;
+  background-image: url(./image/2085-2086R1.jpg);
+  background-attachment: fi;
+  height: 250px; }
 
 @media (min-width: 769px) {
-  .header img {
+  .header {
     height: 500px; } }
 /*contents
 ------------------------------------------------------------*/
