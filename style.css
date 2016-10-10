@@ -15,12 +15,11 @@ a {
 .header {
   margin: 0;
   padding: 0;
-  background-size: contain;
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-color: #EEEEEE;
   background-image: url(./image/2085-2086R1.jpg);
-  background-attachment: fi;
   height: 250px; }
 
 @media (min-width: 769px) {
