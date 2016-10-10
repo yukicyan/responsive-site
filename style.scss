@@ -1,0 +1,157 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$titleColor: #FA8072;
+$textColor: #FFFFFF;
+$backColor: #DDDDDD;
+$backColor2: #AAAAAA;
+
+body{
+  font-family:$baseFontFamily;
+  line-height:1.6;
+  letter-spacing: 0.1em; 
+  background-color: $textColor;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header
+------------------------------------------------------------*/
+
+.header {
+    margin:0;
+    padding:0;
+    
+    img {
+        width:100%;
+        height:250px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .header {
+        
+        img {
+            height:500px;
+        }
+    }
+
+}
+
+
+/*contents
+------------------------------------------------------------*/
+
+.contents {
+    margin:0;
+    padding:10px;
+    
+    h1 {
+        text-align:center;
+        color:#333333;
+        font-weight:bold;
+        text-size:12px;
+        margin-top:10px;
+    }
+    
+    .box {
+        margin-top:10px;
+        width:100%;
+        display:block;
+        
+        h2 {
+            text-align:center;
+            font-weight:bold;
+            color:$titleColor;
+            padding:5px 10px 5px 10px;
+            background-color:$backColor;
+            font-size:18px;
+            margin-bottom:0;
+        }
+        
+        p {
+            text-align:center;
+            font-weight:normal;
+            color:$textColor;
+            padding:20px 10px 20px 10px;
+            background-color:$backColor2;
+            font-size:15px;
+            margin-top:0;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+
+    .contents {
+        
+        .container {
+            
+            .box {
+                float:left;
+                width:31.3333%;
+                padding:1%;
+            }
+        }
+        
+    }
+    
+.contents .container:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+}
+
+
+/*footer
+------------------------------------------------------------*/
+
+.footer {
+    background-color:#EEEEEE;
+    margin:0;
+    padding:20px 15px 30px 15px;
+    
+    h2 {
+        margin-top:20px;
+        color:#999999;
+        font-weight:bold;
+        text-align:center;
+        font-size:18px;
+    }
+    
+    .button {
+        background-color:#000000;
+        border-radius:5px;
+        
+        p {
+            font-size:15px;
+            color:#FFD700;
+            font-weight:bold;
+            text-align:center;
+            padding:5px 10px 5px 10px;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    
+    .footer {
+        
+        .button {
+            width:300px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    }
+
+}
+

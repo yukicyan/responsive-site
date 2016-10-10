@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+body {
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #FFFFFF;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+/*header
+------------------------------------------------------------*/
+.header {
+  margin: 0;
+  padding: 0; }
+  .header img {
+    width: 100%;
+    height: 250px; }
+
+@media (min-width: 769px) {
+  .header img {
+    height: 500px; } }
+/*contents
+------------------------------------------------------------*/
+.contents {
+  margin: 0;
+  padding: 10px; }
+  .contents h1 {
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    text-size: 12px;
+    margin-top: 10px; }
+  .contents .box {
+    margin-top: 10px;
+    width: 100%;
+    display: block; }
+    .contents .box h2 {
+      text-align: center;
+      font-weight: bold;
+      color: #FA8072;
+      padding: 5px 10px 5px 10px;
+      background-color: #DDDDDD;
+      font-size: 18px;
+      margin-bottom: 0; }
+    .contents .box p {
+      text-align: center;
+      font-weight: normal;
+      color: #FFFFFF;
+      padding: 20px 10px 20px 10px;
+      background-color: #AAAAAA;
+      font-size: 15px;
+      margin-top: 0; }
+
+@media (min-width: 769px) {
+  .contents .container .box {
+    float: left;
+    width: 31.3333%;
+    padding: 1%; }
+
+  .contents .container:after {
+    content: "";
+    display: block;
+    clear: both; } }
+/*footer
+------------------------------------------------------------*/
+.footer {
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 20px 15px 30px 15px; }
+  .footer h2 {
+    margin-top: 20px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px; }
+  .footer .button {
+    background-color: #000000;
+    border-radius: 5px; }
+    .footer .button p {
+      font-size: 15px;
+      color: #FFD700;
+      font-weight: bold;
+      text-align: center;
+      padding: 5px 10px 5px 10px; }
+
+@media (min-width: 769px) {
+  .footer .button {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; } }
+
+/*# sourceMappingURL=style.css.map */
